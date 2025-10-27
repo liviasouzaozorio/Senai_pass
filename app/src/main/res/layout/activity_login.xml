@@ -1,34 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center_horizontal"
-    android:backgroundTint="#f4f6ff"
-
-
+    android:background="#f4f6ff"
   >
 
     <ImageView
         android:id="@+id/logintop"
         android:layout_width="450dp"
         android:layout_height="109dp"
-        android:layout_marginBottom="55dp"
+        android:layout_marginBottom="45dp"
         android:src="@drawable/loginbottomtop"></ImageView>
 
     <ImageView
         android:id="@+id/senaipass"
         android:layout_width="265dp"
         android:layout_height="135dp"
+        android:layout_marginTop="70dp"
         android:layout_marginBottom="20dp"
         android:src="@drawable/senaipasslogo"></ImageView>
 
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="351dp"
-        android:gravity="center_horizontal"
-        android:orientation="vertical">
 
         <EditText
             android:id="@+id/username"
@@ -37,6 +31,8 @@
             android:layout_marginBottom="24dp"
             android:background="@drawable/edittext_borda_oval"
             android:hint="Email"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
             android:inputType="textEmailAddress"
             android:padding="12dp" />
 
@@ -48,6 +44,8 @@
             android:layout_marginBottom="35dp"
             android:background="@drawable/edittext_borda_oval"
             android:hint="Senha"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
             android:inputType="textPassword"
             android:padding="12dp" />
 
@@ -57,14 +55,16 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:backgroundTint="#0e4194"
-            android:text="Entrar" />
-
-    </LinearLayout>
+            android:textColor="@color/white"
+            android:text="Entrar"
+            android:layout_marginBottom="70dp"/>
 
     <ImageView
+       android:layout_marginTop="45dp"
+        android:layout_gravity="bottom"
         android:id="@+id/loginbottom"
         android:layout_width="439dp"
-        android:layout_height="110dp"
-        android:src="@drawable/loginbottomtop"></ImageView>
+        android:layout_height="match_parent"
+        android:src="@drawable/loginbottomtop"/>
 
 </LinearLayout>
