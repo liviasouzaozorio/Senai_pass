@@ -23,8 +23,7 @@
         android:layout_marginBottom="20dp"
         android:src="@drawable/senaipasslogo"/>
 
-
-        <EditText
+    <EditText
             android:id="@+id/username"
             android:layout_width="293dp"
             android:layout_height="wrap_content"
@@ -36,7 +35,7 @@
             android:inputType="textEmailAddress"
             android:padding="12dp" />
 
-        <EditText
+    <EditText
             android:id="@+id/password"
             android:layout_width="293dp"
             android:layout_height="wrap_content"
@@ -49,7 +48,7 @@
             android:inputType="textPassword"
             android:padding="12dp" />
 
-        <Button
+    <Button
             android:id="@+id/login_button"
             android:layout_width="130dp"
             android:layout_height="wrap_content"
@@ -60,7 +59,7 @@
             android:layout_marginBottom="70dp"/>
 
     <ImageView
-       android:layout_marginTop="45dp"
+        android:layout_marginTop="45dp"
         android:layout_gravity="bottom"
         android:id="@+id/loginbottom"
         android:layout_width="439dp"
