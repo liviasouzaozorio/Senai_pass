@@ -8,57 +8,45 @@
     android:background="#f4f6ff"
     android:gravity="center_horizontal"
     android:orientation="vertical">
-
     <FrameLayout
         android:layout_width="450dp"
         android:layout_height="186dp"
         android:layout_marginBottom="45dp">
-
-
-        <ImageView
-            android:id="@+id/tophome"
-            android:layout_width="match_parent"
-            android:layout_height="186dp"
-            android:src="@drawable/hometop" />
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Bem-vindo estudante SENAI."
-            android:fontFamily="@font/poppins"
-            android:textColor="@color/white"
-            android:textStyle="bold"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="27dp"
-            android:textSize="16sp"/>
+            <ImageView
+                android:id="@+id/tophome"
+                android:layout_width="match_parent"
+                android:layout_height="186dp"
+                android:src="@drawable/hometop"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bem-vindo estudante SENAI."
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="27dp"
+                android:textSize="17sp"/>
 
         <ImageView
             android:id="@+id/foto_aluno"
-            android:layout_width="97dp"
-            android:layout_height="100dp"
+            android:layout_width="86dp"
+            android:layout_height="88dp"
             android:layout_gravity="center"
             android:layout_marginTop="23dp"
             android:background="@drawable/borda_redonda"
             android:clipToOutline="true"
             android:scaleType="centerCrop"
-            tools:srcCompat="@tools:sample/avatars"
-
-
-            />
-
+            tools:srcCompat="@tools:sample/avatars" />
     </FrameLayout>
-
     <TextView
         android:id="@+id/textotop"
         android:layout_width="210dp"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins"
         android:gravity="center"
-        android:text="Controle de acesso SENAI-SP"
-        />
-
-
+        android:textStyle="bold"
+        android:text="Controle de acesso SENAI-SP"/>
     <LinearLayout
         android:id="@+id/qrcode"
         android:layout_width="259dp"
@@ -67,40 +55,39 @@
         android:orientation="vertical"
         android:layout_marginTop="25dp"
         android:layout_marginBottom="94dp"
-        android:background="@drawable/round_border"
-
-        />
-<FrameLayout
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
-
-    <ImageView
-        android:id="@+id/loginbottom"
-        android:layout_width="439dp"
-        android:layout_height="match_parent"
-        android:layout_gravity="bottom"
-        android:src="@drawable/homebottom" />
-    <ImageView
-        android:id="@+id/senaipass"
-        android:layout_width="210dp"
-        android:layout_height="60dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="14dp"
-        android:src="@drawable/senaipasslogo"/>
-
-    <TextView
+        android:background="@drawable/round_border">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QR Code"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+    <FrameLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Copyright © 2025 SENAI-SP. Todos os direitos reservados."
-        android:fontFamily="@font/poppins"
-        android:textColor="@color/white"
-        android:textStyle="bold"
-        android:layout_marginTop="25dp"
-        android:layout_gravity="center"
-        android:textSize="10sp"
-        />
-
-
-    "/>
-</FrameLayout>
+        android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/loginbottom"
+                android:layout_width="439dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:src="@drawable/homebottom"/>
+            <ImageView
+                android:id="@+id/senaipass"
+                android:layout_width="210dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="14dp"
+                android:src="@drawable/senaipasslogo"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Copyright © 2025 SENAI-SP. Todos os direitos reservados."
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center"
+                android:textSize="10sp"/>
+    </FrameLayout>
 </LinearLayout>
