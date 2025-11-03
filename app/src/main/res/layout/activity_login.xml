@@ -12,15 +12,14 @@
         android:id="@+id/logintop"
         android:layout_width="450dp"
         android:layout_height="109dp"
-        android:layout_marginBottom="45dp"
         android:src="@drawable/loginbottomtop"/>
 
     <ImageView
         android:id="@+id/senaipass"
         android:layout_width="265dp"
         android:layout_height="135dp"
-        android:layout_marginTop="70dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="15dp"
         android:src="@drawable/senaipasslogo"/>
 
     <EditText
@@ -56,14 +55,12 @@
             android:backgroundTint="#0e4194"
             android:textColor="@color/white"
             android:text="Entrar"
-            android:layout_marginBottom="70dp"/>
+            android:layout_marginBottom="68dp"/>
 
     <ImageView
-        android:layout_marginTop="45dp"
-        android:layout_gravity="bottom"
         android:id="@+id/loginbottom"
-        android:layout_width="439dp"
-        android:layout_height="match_parent"
-        android:src="@drawable/loginbottomtop"/>
+        android:layout_width="450dp"
+        android:layout_height="109dp"
+        android:src="@drawable/loginbottomtop" />
 
 </LinearLayout>
