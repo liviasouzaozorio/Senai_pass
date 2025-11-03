@@ -66,12 +66,13 @@
     <FrameLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-            <ImageView
-                android:id="@+id/loginbottom"
-                android:layout_width="439dp"
-                android:layout_height="match_parent"
-                android:layout_gravity="bottom"
-                android:src="@drawable/homebottom"/>
+
+        <ImageView
+            android:id="@+id/loginbottom"
+            android:layout_width="439dp"
+            android:layout_height="107dp"
+            android:layout_gravity="bottom"
+            android:src="@drawable/homebottom" />
             <ImageView
                 android:id="@+id/senaipass"
                 android:layout_width="210dp"
