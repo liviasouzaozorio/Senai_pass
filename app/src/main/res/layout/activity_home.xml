@@ -11,7 +11,7 @@
     <FrameLayout
         android:layout_width="450dp"
         android:layout_height="186dp"
-        android:layout_marginBottom="60dp">
+        android:layout_marginBottom="74dp">
 
         <ImageView
             android:id="@+id/tophome"
@@ -77,14 +77,14 @@
 
     <FrameLayout
         android:layout_width="421dp"
-        android:layout_height="128dp">
+        android:layout_height="90dp">
 
     </FrameLayout>
 
     <FrameLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp">
+        android:layout_marginTop="73dp">
 
         <ImageView
             android:id="@+id/loginbottom"
