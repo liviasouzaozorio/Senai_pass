@@ -6,17 +6,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#f4f6ff"
-    android:gravity="center_horizontal"
+    android:gravity="center"
     android:orientation="vertical">
     <FrameLayout
         android:layout_width="450dp"
         android:layout_height="186dp"
-        android:layout_marginBottom="45dp">
-            <ImageView
-                android:id="@+id/tophome"
-                android:layout_width="match_parent"
-                android:layout_height="186dp"
-                android:src="@drawable/hometop"/>
+        android:layout_marginBottom="60dp">
+
+        <ImageView
+            android:id="@+id/tophome"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/hometop" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -39,6 +40,13 @@
             android:scaleType="centerCrop"
             tools:srcCompat="@tools:sample/avatars" />
     </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="411dp"
+        android:layout_height="58dp">
+
+    </FrameLayout>
+
     <TextView
         android:id="@+id/textotop"
         android:layout_width="210dp"
@@ -46,23 +54,33 @@
         android:fontFamily="@font/poppins"
         android:gravity="center"
         android:textStyle="bold"
-        android:text="Controle de acesso SENAI-SP"/>
+        android:text="Controle de acesso SENAI-SP"
+        android:textColor="@color/gray" />
+
     <LinearLayout
         android:id="@+id/qrcode"
         android:layout_width="259dp"
         android:layout_height="255dp"
-        android:backgroundTint="@color/white"
-        android:orientation="vertical"
         android:layout_marginTop="25dp"
-        android:layout_marginBottom="94dp"
-        android:background="@drawable/round_border">
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/round_border"
+        android:backgroundTint="@color/white"
+        android:orientation="vertical">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="QR Code"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginTop="10dp"
+            android:text="QR Code" />
     </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="421dp"
+        android:layout_height="128dp">
+
+    </FrameLayout>
+
     <FrameLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
@@ -90,5 +108,11 @@
                 android:layout_marginTop="25dp"
                 android:layout_gravity="center"
                 android:textSize="10sp"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
     </FrameLayout>
 </LinearLayout>
