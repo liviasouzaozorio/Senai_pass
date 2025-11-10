@@ -19,7 +19,7 @@ public class LoginActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_login);
         //Função de clicar no botão para login, para realizar a autenticação do aluno SENAI
-        Button btnLogin = findViewById(R.id.login_button);
+        Button btnLogin = findViewById(R.id.entrar);
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

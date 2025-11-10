@@ -3,18 +3,17 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center"
     android:background="#f4f6ff"
-    android:padding="0dp"
-  >
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="0dp">
 
     <ImageView
         android:id="@+id/logintop"
         android:layout_width="450dp"
         android:layout_height="109dp"
-        android:src="@drawable/loginbottomtop"
-        android:layout_marginBottom="64dp"/>
+        android:layout_marginBottom="64dp"
+        android:src="@drawable/loginbottomtop" />
 
     <FrameLayout
         android:layout_width="424dp"
@@ -27,40 +26,40 @@
         android:layout_width="265dp"
         android:layout_height="135dp"
         android:layout_marginBottom="15dp"
-        android:src="@drawable/senaipasslogo"/>
+        android:src="@drawable/senaipasslogo" />
 
     <EditText
-            android:id="@+id/username"
-            android:layout_width="293dp"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="40dp"
-            android:background="@drawable/edittext_borda_oval"
-            android:hint="Email"
-            android:textColorHint="@color/black"
-            android:textColor="@color/black"
-            android:inputType="textEmailAddress"
-            android:padding="12dp" />
+        android:id="@+id/cpf"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/edittext_borda_oval"
+        android:hint="Insira o seu CPF"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
 
     <EditText
-            android:id="@+id/password"
-            android:layout_width="293dp"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="35dp"
-            android:background="@drawable/edittext_borda_oval"
-            android:hint="Senha"
-            android:textColorHint="@color/black"
-            android:textColor="@color/black"
-            android:inputType="textPassword"
-            android:padding="12dp" />
+        android:id="@+id/senha"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/edittext_borda_oval"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
 
     <Button
-            android:id="@+id/login_button"
-            android:layout_width="130dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:backgroundTint="#0e4194"
-            android:textColor="@color/white"
-            android:text="Entrar" />
+        android:id="@+id/entrar"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#0e4194"
+        android:text="Entrar"
+        android:textColor="@color/white" />
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -70,9 +69,9 @@
 
     <ImageView
         android:id="@+id/loginbottom"
-        android:layout_marginTop="64dp"
         android:layout_width="450dp"
         android:layout_height="109dp"
+        android:layout_marginTop="64dp"
         android:src="@drawable/loginbottomtop" />
 
 </LinearLayout>
