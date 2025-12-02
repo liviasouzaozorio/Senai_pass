@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de aluno SENAI-SP</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <form action="/api/aluno/register" method="post" enctype="multipart/form-data">
+  <img src="/img-src/senaipasslogo.png" alt="Logo do SENAI-SP" class="logo-senai">
+        <div class="form-group">
+    <label for="nome_cliente">Nome do aluno:</label>
+    <input type="text" id="nome_cliente" name="nome_completo" placeholder="Insira o nome:" required>
+  </div>
+  <div class="form-group">
+    <label>CPF:</label>
+    <input type="text" id="cpf_cliente" name="cpf" placeholder="Insira o CPF(11 caracteres):" required>
+  </div>
+  <div class="form-group">
+    <label>ID do aluno:</label>
+    <input type="text" id="id_cliente" name="id_aluno" placeholder="Insira o ID(9 caracteres):" required>
+  </div>
+  <div class="form-group">
+    <label for="senha_cliente">Senha cadastrada do aluno:</label>
+    <input type="password" id="senha_cliente" name="senha" placeholder="Insira a senha:" required>
+  </div>
+  <div class="form-group">
+    <label>Foto:</label>
+    <input type="file" name="img" accept="image/*">
+  </div>
+  <button type="submit" class="submit-btn">Cadastrar</button>
+</form>
+    </div>
+    </body>
+
+</html>

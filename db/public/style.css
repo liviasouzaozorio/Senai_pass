@@ -1,0 +1,183 @@
+/* Estilo atualizado com cor vermelha (danger) e as cores do seu colors.xml */
+:root{
+  --black: #000000;
+  --white: #ffffff;
+  --gray: #3d3d48;
+  --primary: #0e4194;
+  --accent: #2b8cff;
+  --danger: #ff0000;            /* vermelho adicionado */
+  --bg: linear-gradient(180deg,#f6f8fb,#eef4ff);
+  --card-bg: linear-gradient(180deg,#ffffff,#fbfdff);
+  --radius: 12px;
+  --shadow: 0 18px 40px rgba(14,65,148,0.12);
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color-scheme: light;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  background:var(--bg);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:32px;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+/* Card central (quadradinho) */
+.form-container{
+  width:100%;
+  max-width:420px;
+  background:var(--card-bg);
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+  padding:28px;
+  border:1px solid rgba(14,65,148,0.06);
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+  align-items:stretch;
+}
+
+/* Cabeçalho do card */
+.form-top{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+.brand {
+  width:56px;
+  height:56px;
+  border-radius:10px;
+  background: linear-gradient(135deg,var(--primary),var(--accent));
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:var(--white);
+  font-weight:800;
+  font-size:20px;
+  box-shadow:0 8px 22px rgba(14,65,148,0.16);
+}
+.form-title{
+  margin:0;
+  font-size:20px;
+  font-weight:800;
+  color:var(--primary);
+}
+.form-sub{
+  margin:0;
+  font-size:13px;
+  color:var(--gray);
+}
+
+/* Grupos de campo */
+.form-group{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+.form-group label{
+  font-size:13px;
+  color:var(--gray);
+  margin-left:4px;
+}
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group input[type="file"],
+.form-group input[type="email"]{
+  padding:10px 12px;
+  border-radius:10px;
+  border:1px solid rgba(14,65,148,0.08);
+  background:var(--white);
+  font-size:14px;
+  color:var(--black);
+  outline:none;
+  transition:box-shadow .12s, border-color .12s, transform .06s;
+}
+
+/* foco nos inputs */
+.form-group input:focus{
+  border-color: rgba(14,65,148,0.9);
+  box-shadow:0 12px 28px rgba(14,65,148,0.06);
+  transform:translateY(-1px);
+}
+
+/* estado de erro */
+.input-error{
+  border-color: var(--danger) !important;
+  box-shadow: 0 8px 20px rgba(255,0,0,0.06);
+}
+.error-text{
+  color: var(--danger);
+  font-size:13px;
+  margin-top:4px;
+}
+
+/* botão principal */
+.submit-btn{
+  padding:12px 14px;
+  background: linear-gradient(90deg,var(--primary),var(--accent));
+  color:var(--white);
+  border:none;
+  border-radius:10px;
+  font-size:15px;
+  font-weight:800;
+  cursor:pointer;
+  box-shadow:0 12px 30px rgba(14,65,148,0.14);
+  transition:transform .08s, box-shadow .12s, opacity .12s;
+  width:100%;
+  margin-top: 20px;
+}
+.submit-btn:hover{ transform:translateY(-3px); }
+.submit-btn:active{ transform:translateY(0); opacity:.98; }
+
+/* link secundário / hint */
+.hint{
+  text-align:center;
+  font-size:13px;
+  color:var(--gray);
+  margin-top:4px;
+}
+
+/* preview de imagem */
+.preview{
+  display:flex;
+  gap:10px;
+  align-items:center;
+}
+.preview img{
+  width:56px;
+  height:56px;
+  object-fit:cover;
+  border-radius:8px;
+  border:1px solid rgba(14,65,148,0.06);
+  box-shadow:0 8px 18px rgba(14,65,148,0.06);
+}
+
+/* pequeno badge de alerta */
+.badge-danger{
+  display:inline-block;
+  padding:6px 8px;
+  background:rgba(255,0,0,0.06);
+  color:var(--danger);
+  border-radius:8px;
+  font-weight:700;
+  font-size:12px;
+}
+.logo-senai {
+  display: block;
+  justify-content: center;
+  margin: 0 auto 20px auto;
+  width: 300px;
+  height: auto;
+}
+
+/* responsividade */
+@media (max-width:480px){
+  .form-container{ padding:18px; border-radius:10px; max-width:360px; }
+  .brand{ width:48px; height:48px; font-size:18px; }
+  .form-title{ font-size:18px; }
+}
