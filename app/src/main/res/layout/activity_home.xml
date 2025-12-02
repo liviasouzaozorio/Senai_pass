@@ -80,8 +80,9 @@
             android:id="@+id/qrcodeimg"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_centerInParent="true"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="2dp"
             android:contentDescription="QR Code" />
     </LinearLayout>
 
