@@ -23,7 +23,7 @@ public class LoginActivity extends AppCompatActivity {
 
     // IP do HOST/Backend para o Emulador Android
     // Seu servidor Node.js/Express deve estar rodando em http://localhost:3000
-    private static final String BASE_URL = "http://10.0.2.2:3000/";
+    private static final String BASE_URL = "http://172.18.43.249:3000/";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
