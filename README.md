@@ -19,5 +19,4 @@ O SENAI Pass digitaliza este processo, oferecendo uma aplicação onde o aluno a
 ## 👩‍💻 Autor
 Este projeto foi idealizado e desenvolvido por uma equipe de alunos SENAI, como parte de uma iniciativa de inovação tecnológica e sustentabilidade.
 
-**[Lívia Vitória,]**
-*Formada em ADS no SENAI.*
+
