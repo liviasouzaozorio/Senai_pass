@@ -1,22 +1,49 @@
-# 💳 SENAI Pass - Identidade Estudantil Digital
+# 💳 SENAI Pass — Identidade Estudantil Digital
 
-> **Inovação, Sustentabilidade e Economia na palma da mão.**
+> **Tecnologia, ESG e praticidade para transformar a experiência estudantil.**
 
-O **SENAI Pass** é um projeto desenvolvido para modernizar a identificação dos alunos do SENAI, substituindo a antiga carteirinha física de plástico por uma solução digital segura, ecológica e eficiente.
+O **SENAI Pass** é um projeto acadêmico desenvolvido com o objetivo de modernizar a identificação estudantil através de uma solução digital segura, acessível e sustentável.  
+
+A proposta substitui as tradicionais carteirinhas físicas de PVC por uma plataforma mobile inteligente, reduzindo impactos ambientais, custos operacionais e problemas relacionados à perda ou reemissão de cartões.
 
 ---
 
-## 🎯 O Problema
-Atualmente, o sistema de identificação física enfrenta três desafios principais:
-1. **Impacto Ambiental:** A produção de cartões de plástico (PVC) gera resíduos não biodegradáveis.
-2. **Custo para o Aluno:** Em caso de perda ou extravio, o aluno é obrigado a pagar uma taxa de reemissão.
-3. **Inconveniência:** É comum esquecer ou perder o cartão físico, enquanto o smartphone está sempre com o utilizador.
+## 🎯 Desafio
 
-## 💡 A Solução
-O SENAI Pass digitaliza este processo, oferecendo uma aplicação onde o aluno acede à sua identificação através de autenticação segura.
+O modelo tradicional de identificação estudantil apresenta limitações importantes:
+
+- 🌱 **Impacto Ambiental:** Produção contínua de cartões plásticos não biodegradáveis.
+- 💸 **Custos Operacionais:** Gastos com emissão e reemissão de carteirinhas físicas.
+- 📱 **Baixa Praticidade:** Dependência de um cartão físico sujeito a perdas, danos e esquecimentos.
+
 ---
 
-## 👩‍💻 Autor
-Este projeto foi idealizado e desenvolvido por uma equipe de alunos SENAI, como parte de uma iniciativa de inovação tecnológica e sustentabilidade.
+## 💡 Solução
 
+O **SENAI Pass** digitaliza todo o processo de autenticação estudantil através de uma aplicação mobile com acesso rápido, seguro e intuitivo.
 
+A solução busca:
+- reduzir custos institucionais;
+- diminuir resíduos plásticos;
+- otimizar o acesso estudantil;
+- modernizar a experiência digital dos alunos.
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- Java
+- JavaScript
+- HTML5
+- CSS3
+- SQLite
+- Node.js
+- Git & GitHub
+- Android Studio
+- Scrum
+
+---
+
+## 👩‍💻 Desenvolvimento
+
+Projeto idealizado e desenvolvido por estudantes do SENAI-SP como Trabalho de Conclusão de Curso (TCC), unindo inovação tecnológica, acessibilidade digital e sustentabilidade.
