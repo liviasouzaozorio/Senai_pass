@@ -2,6 +2,8 @@
 
 > **Tecnologia, praticidade e sustentabilidade para modernizar a experiência estudantil.**
 
+🎥 **[▶️ Assistir ao vídeo de apresentação do SENAI Pass](https://youtu.be/0DQd0ukZYDI?si=ptWWwgKvm5bdPILr)**
+
 O **SENAI Pass** é um projeto acadêmico desenvolvido para substituir as carteirinhas físicas por uma solução digital de identificação estudantil, tornando o processo de autenticação mais **ágil, acessível e sustentável**.
 
 A proposta combina **tecnologia, automação e eficiência operacional**, reduzindo custos associados à emissão física e modernizando a experiência de acesso dos estudantes.
